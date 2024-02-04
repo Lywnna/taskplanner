@@ -33,7 +33,7 @@ fn build_ui(app: &Application) {
     // Create a window
     let window = ApplicationWindow::builder()
         .application(app)
-        .title("My GTK App")
+        .title("My first app")
         .child(&button)
         .build();
 
